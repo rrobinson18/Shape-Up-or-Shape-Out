@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rows">
+            <h1>Shape Up or Shape Out</h1>
+            <form action="#">
+                <input type="text" id="recWidth" placeholder="Rectangle Width">
+                <input type="text" id="recHeight" placeholder="Rectangle Height">
+                <button class="btn btn-success btn-sm" id="rectBtn">Rectangle</button>
+                <input type="text" id="sqWidth" placeholder="Square width">
+                <button class="btn btn-danger btn-sm" id="squBtn">Square</button>
+                <input type="text" id="cirRadius" placeholder="Circle Radius">
+                <button class="btn btn-basic btn-sm" id="cirBtn">Circle</button>
+                <input type="text" id="triWidth" placeholder="Triangle width">
+                <button class="btn btn-warning btn-sm" id="triBtn">Triangle</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 main">
+                <div class="canvas">
+                    <h4>Click on shape for stats, double click to remove shape.</h4>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3>Stats</h3>
+                <p id="rptStatsId"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+
+</html>

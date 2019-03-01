@@ -1,0 +1,39 @@
+.canvas {
+    height: 600px;
+    width: 600px;
+    position: relative; 
+    justify-content: center;  
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.info-box {
+    height: 600px;
+    width: 300px;
+    margin: 25px;
+    /* margin-left: 80px; */
+    float: right;
+    background-color: lightgray;
+    display: inline;
+    
+
+}
+
+.btn-basic {
+    background-color: purple;
+}
+
+form {
+    display: inline-block;
+    height: 3rem;
+    flex-direction: column;
+}
+
+h3, h4 {
+    padding: 10px;
+}
+
+ 
+    
+}
